@@ -9,14 +9,14 @@ const SideBar = () => {
 
 
     return <div className="nav-bar">
-    <Link className="logo" to="/Portfolio" >
+    <Link className="logo" to="/Portfolio/home" >
         <img src={LogoS} alt="logo"></img>
         <img className="sub-logo" src={LogoSubtitle} alt="slobodan"></img>
     </Link>
 
 
   <nav>
-    <NavLink exact="true" activeclassname="active" to="/Portfolio" >
+    <NavLink exact="true" activeclassname="active" to="/Portfolio/home" >
         <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
     </NavLink>
     <NavLink exact="true" activeclassname="active" className="about-link" to="/Portfolio/about">
