@@ -2,6 +2,7 @@ import LogoTitle from "../../assets/images/logo-s.png";
 import {Link} from "react-router-dom";
 import {useEffect, useState} from "react";
 import ReactTypingEffect from 'react-typing-effect';
+import {Loader} from "react-loaders";
 
 import "./index.scss";
 import AnimatedLetters from "../AnimatedLetters";
@@ -23,7 +24,7 @@ function Home() {
                     clearTimeout(timeoutId)
                 }
     }, [])
-        return <div className="container home-page">
+        return <><div className="container home-page">
     <div className="text-zone">
 
 
@@ -38,13 +39,15 @@ function Home() {
         <br />
         <AnimatedLetters letterClass={letterClass} strArray = {jobArray} idx = {22} />
         </h1>
-        <h2><ReactTypingEffect typingDelay="10" eraseDelay="1000" eraseSpeed="10" speed="100"
-        text={["Student.", "Software Developer.", "Aspring Software Engineer :)"]}
+        <h2><ReactTypingEffect typingDelay="0" eraseDelay="1000" eraseSpeed="10" speed="100"
+        text={["Software Developer.", "Student.", "Aspring Software Engineer :)"]}
     /></h2>
             <h2>Frontend developer / Javascipt Expert / Youtuber</h2>
         <Link to="/contact" className="flat-button">CONTACT ME</Link>
     </div>
     </div>
+    <Loader type="pacman"/>
+    </>
 }
 
 export default Home;
