@@ -10,18 +10,17 @@
     .logo {
         display: block;
         padding: 8px 0;
+        text-align: center;
+        text-decoration: none;
 
-        img {
-            display: block;
-            margin: 8px auto;
+        h4 {
+            color: white;
+            text-decoration: none;
+            font-size: 50px;
+            display: inline;
             width: 24px;
-            height: auto;
-
-            &.sub-logo {
-                width: 50px;
-            }
+            font-family: "Bungee Shade";
         }
-
     }
 
     nav {
