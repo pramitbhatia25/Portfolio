@@ -111,3 +111,30 @@
         }
     }
 }
+
+@media screen and (max-width: 1200px) {
+    .container.portfolio-page {
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+
+        h1.page-title {
+            margin-left: 20px;
+        }
+
+        .title {
+            font-size: 15px;
+            line-height: 12px;
+        }
+        .description {
+            font-size: 11px;
+            line-height: 12px;
+        }
+        .image-box {
+            height: 200px;
+            max-width: calc(50% - 10px);
+        }
+    }    
+
+
+}

@@ -34,8 +34,8 @@ function Home() {
                 <span className={`${letterClass} _14`}>'m</span>
                 <h4>P</h4>
                 <AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={15} />
+                <span className={`${letterClass} _15`}>!</span>
                 <br />
-                <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={15} />
             </h1>
             <h2><ReactTypingEffect typingDelay="0" eraseDelay="1000" eraseSpeed="10" speed="100"
                 text={["Software Developer.", "Undergrad @ Georgia State University", "Aspring Software Engineer :)"]}
