@@ -9,6 +9,13 @@
   top: 35px;
 }
 
+.bottom-tags {
+  top: auto;
+  bottom: 35px;  z-index: -2;
+
+}
+
+
 .tags {
   color: #ffd700;
   opacity: 0.6;
@@ -41,6 +48,7 @@
   animation-delay: 1s;
 }
 
+.portfolio-page,
 .contact-page,
 .about-page {
     h1 {

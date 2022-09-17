@@ -13,7 +13,7 @@ function Home() {
     const jobArray = ["s", "o", "f", "t", "w", "a", "r", "e", " " ,"d" ,"e" ,"v" ,"e" ,"l" ,"o" ,"p" ,"e" ,"r"];
 
     useEffect(() => {
-
+            document.body.style.zoom = "100%";
         let timeoutId = setTimeout(() => {
             setLetterClass('text-animate-hover')
         }, 4000)
