@@ -38,18 +38,19 @@
             font-size: 18px;
             position: absolute;
             margin-top: -40px;
+            animation: fadeIn 1s 1.7s backwards;
             left: 15px;
             opacity: 0.6;
         }
 
         &:after {
-            content: "<h1/>";
+            content: "</h1>";
             font-family: "La Belle Aurore";
             color: #ffd700;
             font-size: 18px;
             position: absolute;
-            margin-top: 18px;
-            margin-left: 20px;
+            margin-left: 15px;
+            margin-top: 20px;
             animation: fadeIn 1s 1.7s backwards;
             opacity: 0.6;
         }
@@ -81,8 +82,12 @@
         white-space: nowrap;
 
         &:hover {
+          transition: transform 0.3s, opacity 0.3s, background-color 0.3s;
             background: #ffd700;
             color: #333;
+        }
+        &:active {
+          transform: translateY(3px);
         }
     }
 }

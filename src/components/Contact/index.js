@@ -9,7 +9,7 @@ const Contact = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
     const refForm = useRef();
     useEffect(() => {
-
+        document.body.style.zoom = "80%";
         let timeoutId = setTimeout(() => {
             setLetterClass('text-animate-hover')
         }, 4000)
@@ -31,7 +31,7 @@ const Contact = () => {
             .then(
                 () => {
                     alert("Message successfully sent!");
-                    window.location.reload(false);
+                    document.location.href = "https://pramitbhatia25.github.io/Portfolio/";
                 },
                 () => {
                     alert("Failed to send the message, try again.");

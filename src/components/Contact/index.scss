@@ -71,11 +71,15 @@
       text-align: center;
       margin-right: 10px;
 
-      &:hover {
+
+    &:hover {
+      transition: transform 0.3s, opacity 0.3s, background-color 0.3s;
         background: #ffd700;
         color: #333;
     }
-
+    &:active {
+      transform: translateY(3px);
+    }
     }
   }
   

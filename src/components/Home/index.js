@@ -10,7 +10,6 @@ function Home() {
 
     const [letterClass, setLetterClass] = useState('text-animate');
     const nameArray = ['r', 'a', 'm', 'i', 't'];
-    const jobArray = ["s", "o", "f", "t", "w", "a", "r", "e", " " ,"d" ,"e" ,"v" ,"e" ,"l" ,"o" ,"p" ,"e" ,"r"];
 
     useEffect(() => {
             document.body.style.zoom = "100%";
@@ -37,10 +36,13 @@ function Home() {
                 <span className={`${letterClass} _15`}>!</span>
                 <br />
             </h1>
+            <br />
+            <br />
+            <br />
             <h2><ReactTypingEffect typingDelay="0" eraseDelay="1000" eraseSpeed="10" speed="100"
                 text={["Software Developer.", "Undergrad @ Georgia State University", "Aspring Software Engineer :)"]}
             /></h2>
-            <Link to="/contact" className="flat-button">CONTACT ME</Link>
+            <Link to="/Portfolio/contact" className="flat-button">CONTACT ME</Link>
         </div>
     </div>
         <Loader type="pacman" />
