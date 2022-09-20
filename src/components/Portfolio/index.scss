@@ -5,7 +5,6 @@
     position: initial;
     height: 100%;
     overflow: auto;
-
     h1.page-title {
         margin-left: 100px;
         margin-top: 100px;
@@ -23,13 +22,10 @@
         flex: 1 1 20%;
         height: 300px;
         overflow: hidden;
-        border: 5px solid white;
         max-width: calc(25% - 30px);
         min-width: 170px;
-        background-color: white;
         .portfolio-image {
             position: absolute;
-            border: 1px solid black;
             border-radius: 10px;
             z-index: 2;
             width: 100%;

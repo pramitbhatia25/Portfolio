@@ -1,6 +1,6 @@
 .nav-bar {
     background: #181818;
-    width: 60px;
+    width: 80px;
     height: 101%;
     position: absolute;
     top:0;
@@ -33,7 +33,7 @@
         width: 100%;
         a {
             font-size: 22px;
-            color: #4d4d4e;
+            color: white;
             display: block;
             line-height: 51px;
             height: 51px;
@@ -145,7 +145,7 @@
           width: 100%;
           top: 0;
           left: 0;
-          background: #181818;
+          background: black;
           height: 100%;
           margin: 0;
           z-index: 2;
@@ -156,12 +156,14 @@
           }
     
           a {
+            font-size: 24px;
             display: flex;
             justify-content: center;
             align-items: center;
           }
     
           a:after {
+            font-size: 15px;
             opacity: 1;
             position: initial;
             width: auto;
