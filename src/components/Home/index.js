@@ -12,7 +12,7 @@ function Home() {
     const nameArray = ['r', 'a', 'm', 'i', 't'];
 
     useEffect(() => {
-            document.body.style.zoom = "100%";
+        document.body.style.zoom = "80%";
         let timeoutId = setTimeout(() => {
             setLetterClass('text-animate-hover')
         }, 4000)

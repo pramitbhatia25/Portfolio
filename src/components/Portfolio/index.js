@@ -8,6 +8,7 @@ import portfolioData from "../../../src/data/portfolio.json";
 const Portfolio = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
     useEffect(() => {
+        document.body.style.zoom = "80%";
         let timeoutId = setTimeout(() => {
             setLetterClass('text-animate-hover')
         }, 4000)
