@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import ReactTypingEffect from 'react-typing-effect';
 import { Loader } from "react-loaders";
 import { NavLink } from "react-router-dom";
+import file from "../../assets/files/Resume.pdf"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHome, faFile, faUser, faEnvelope, faSuitcase, faBars, faContactCard } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin, faGithub, faInstagram } from "@fortawesome/free-brands-svg-icons";
@@ -43,30 +44,30 @@ function Home() {
             <br />
             <br />
             <br />
-            <div class="typing"><ReactTypingEffect typingDelay="1000" eraseDelay="1000" eraseSpeed="10" speed="50"
+            <div className="typing"><ReactTypingEffect typingDelay="1000" eraseDelay="1000" eraseSpeed="10" speed="50"
                 text={["Software Developer.", "Undergrad @ Georgia State University", "Huge Marvel Fan!", "Aspring Software Engineer :)"]}
             /></div>
-            <Link to="/Portfolio/contact" className="flat-button">Linkedin <FontAwesomeIcon className="ic" icon={faLinkedin} color="white" fontSize={"20px"}/></Link>
-            <Link to="/Portfolio/contact" className="flat-button">Github <FontAwesomeIcon className="ic" icon={faGithub} color="white" fontSize={"20px"}/></Link>
-            <Link to="/Portfolio/contact" className="flat-button">Resume <FontAwesomeIcon className="ic" icon={faFile} color="white" fontSize={"20px"}/></Link>
+            <Link to="//linkedin.com/in/pramit-bhatia-220680b2/" target="_blank" className="flat-button">Linkedin <FontAwesomeIcon className="ic" icon={faLinkedin} color="white" fontSize={"20px"}/></Link>
+            <Link to="//github.com/pramitbhatia25" target="_blank" className="flat-button">Github <FontAwesomeIcon className="ic" icon={faGithub} color="white" fontSize={"20px"}/></Link>
+            <Link to={file} download target="_blank" className="flat-button">Resume <FontAwesomeIcon className="ic" icon={faFile} color="white" fontSize={"20px"}/></Link>
             <Link to="/Portfolio/contact" className="flat-button">Contact Me! <FontAwesomeIcon className="ic" icon={faContactCard} color="white" fontSize={"20px"}/></Link>
         </div>
         <div className="iron-man">
-            <div class="reactor-container">
-                <div class="reactor-container-inner circle abs-center"></div>
-                <div class="tunnel circle abs-center"></div>
-                <div class="core-wrapper circle abs-center"></div>
-                <div class="core-outer circle abs-center"></div>
-                <div class="core-inner circle abs-center"></div>
-                <div class="coil-container">
-                    <div class="coil coil-1"></div>
-                    <div class="coil coil-2"></div>
-                    <div class="coil coil-3"></div>
-                    <div class="coil coil-4"></div>
-                    <div class="coil coil-5"></div>
-                    <div class="coil coil-6"></div>
-                    <div class="coil coil-7"></div>
-                    <div class="coil coil-8"></div>
+            <div className="reactor-container">
+                <div className="reactor-container-inner circle abs-center"></div>
+                <div className="tunnel circle abs-center"></div>
+                <div className="core-wrapper circle abs-center"></div>
+                <div className="core-outer circle abs-center"></div>
+                <div className="core-inner circle abs-center"></div>
+                <div className="coil-container">
+                    <div className="coil coil-1"></div>
+                    <div className="coil coil-2"></div>
+                    <div className="coil coil-3"></div>
+                    <div className="coil coil-4"></div>
+                    <div className="coil coil-5"></div>
+                    <div className="coil coil-6"></div>
+                    <div className="coil coil-7"></div>
+                    <div className="coil coil-8"></div>
                 </div>
             </div>
         </div>
