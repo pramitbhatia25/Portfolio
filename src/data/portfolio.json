@@ -1,76 +1,53 @@
 {
   "portfolio": [
       {
-          "cover": "/portfolio/one.png",
+          "cover": "/portfolio/one.jpeg",
           "title": "Code For Good 2022",
-          "description": "React, JSX, Tailwind, Jest",
+          "description": "Web Application built in 24 hours using MERN Stack",
           "url": "http://google.com"
       },
       {
-        "cover": "/portfolio/one.png",
+        "cover": "/portfolio/two.jpeg",
         "title": "GGWP",
-        "description": "React, JSX, Tailwind, Jest",
+        "description": "Mobile Application built using Flutter",
         "url": "http://google.com"
     },
     {
-      "cover": "/portfolio/one.png",
-      "title": "GGWP",
-      "description": "React, JSX, Tailwind, Jest",
+      "cover": "/portfolio/three.jpeg",
+      "title": "Energy Efficiency Analysis",
+      "description": "ML solution built using Python / Numpy / Pandas / Sklearn",
       "url": "http://google.com"
   },
   {
-    "cover": "/portfolio/one.png",
-    "title": "GGWP",
-    "description": "React, JSX, Tailwind, Jest",
+    "cover": "/portfolio/four.jpeg",
+    "title": "Muse-FT",
+    "description": "Mobile Application built using Flutter",
     "url": "http://google.com"
 },
 {
-  "cover": "/portfolio/one.png",
+  "cover": "/portfolio/five.jpeg",
+  "title": "shop-App",
+  "description": "Mobile Application built using Flutter",
+  "url": "http://google.com"
+},
+{
+  "cover": "/portfolio/one.jpeg",
   "title": "GGWP",
   "description": "React, JSX, Tailwind, Jest",
   "url": "http://google.com"
 },
 {
-  "cover": "/portfolio/one.png",
+  "cover": "/portfolio/one.jpeg",
   "title": "GGWP",
   "description": "React, JSX, Tailwind, Jest",
   "url": "http://google.com"
 },
 {
-  "cover": "/portfolio/one.png",
-  "title": "GGWP",
-  "description": "React, JSX, Tailwind, Jest",
-  "url": "http://google.com"
-},
-{
-  "cover": "/portfolio/one.png",
-  "title": "GGWP",
-  "description": "React, JSX, Tailwind, Jest",
-  "url": "http://google.com"
-},
-{
-  "cover": "/portfolio/one.png",
-  "title": "GGWP",
-  "description": "React, JSX, Tailwind, Jest",
-  "url": "http://google.com"
-},
-{
-  "cover": "/portfolio/one.png",
-  "title": "GGWP",
-  "description": "React, JSX, Tailwind, Jest",
-  "url": "http://google.com"
-},
-{
-  "cover": "/portfolio/one.png",
-  "title": "GGWP",
-  "description": "React, JSX, Tailwind, Jest",
-  "url": "http://google.com"
-},
-{
-  "cover": "/portfolio/one.png",
+  "cover": "/portfolio/one.jpeg",
   "title": "GGWP",
   "description": "React, JSX, Tailwind, Jest",
   "url": "http://google.com"
 }
+
 ]
 }
