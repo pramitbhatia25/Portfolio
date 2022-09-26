@@ -15,7 +15,12 @@ function Home() {
 
     const [letterClass, setLetterClass] = useState('text-animate');
     const nameArray = ['r', 'a', 'm', 'i', 't'];
+    const [a, setA] = useState("Loading!");
 
+    async function apiTest(){
+        await fetch("http://127.0.0.1:5000", { method: "GET" }).then((response) => response.json()).then((data) => {setA(data.u)});
+    }
+    
     useEffect(() => {
         document.body.style.zoom = "80%";
         let timeoutId = setTimeout(() => {
@@ -26,17 +31,16 @@ function Home() {
             clearTimeout(timeoutId)
         }
     }, [])
+
     return <><div className="container home-page">
         <div className="text-zone">
-
-
             <h1>
                 <span className={letterClass}>H</span>
                 <span className={`${letterClass} _12`}>i,</span>
                 <br />
                 <span className={`${letterClass} _13`}>I</span>
                 <span className={`${letterClass} _14`}>'m</span>
-                <h4>P</h4>
+                <div className="hh4">P</div>
                 <AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={15} />
                 <span className={`${letterClass} _15`}>!</span>
                 <br />

@@ -50,7 +50,6 @@ const Contact = () => {
                 <p>
                 Hey! If you have any opportunities or would just like to chat with me, send me a message! I promise I'll get back ASAP :)
                 <br />
-                PS: Yes, the website works, I will get the message.
                 </p>
                 <div className="contact-form">
                     <form ref={refForm} onSubmit={sendEmail}>

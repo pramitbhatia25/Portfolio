@@ -14,7 +14,7 @@
     },
     {
       "cover": "/portfolio/three.jpeg",
-      "title": "Energy Efficiency Analysis",
+      "title": "Efficiency Analysis",
       "description": "ML solution built using Python / Numpy / Pandas / Sklearn",
       "url": "http://google.com"
   },
@@ -29,25 +29,6 @@
   "title": "shop-App",
   "description": "Mobile Application built using Flutter",
   "url": "http://google.com"
-},
-{
-  "cover": "/portfolio/one.jpeg",
-  "title": "GGWP",
-  "description": "React, JSX, Tailwind, Jest",
-  "url": "http://google.com"
-},
-{
-  "cover": "/portfolio/one.jpeg",
-  "title": "GGWP",
-  "description": "React, JSX, Tailwind, Jest",
-  "url": "http://google.com"
-},
-{
-  "cover": "/portfolio/one.jpeg",
-  "title": "GGWP",
-  "description": "React, JSX, Tailwind, Jest",
-  "url": "http://google.com"
 }
-
 ]
 }

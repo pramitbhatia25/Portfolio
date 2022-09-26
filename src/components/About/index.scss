@@ -9,6 +9,10 @@
     overflow: hidden;
   }
   
+.hack {
+  text-decoration: none;
+  color: yellow;
+}
   .cubespinner {
     animation-name: spincube;
     animation-timing-function: ease-in-out;

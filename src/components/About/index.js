@@ -36,15 +36,17 @@ function About() {
                 or help out in projects, internships or any other opportunities!
             </p>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                culpa qui officia deserunt mollit anim id est laborum.
-            </p>
+                I love taking part in competitions and hackathons of all kinds, and am naturally
+                competitive. Some of my recent outgoings are:
+                <br />
+                <br />
+                    Hack 4 Good - A Multidisclipinary Hakcathon my wonderful team and I addressed under-reporting of health and safety incidents on the MARTA transport system.
+                     | <a className="hack" href="https://github.com/pramitbhatia25/Hack-4-Good/blob/main/Transportation%20Renovation.pdf">Project Link</a>
+                <br />
+                <br />
+                    Code For Good 2022 - A Technology hackathon where my team and I developed a web application
+                    under 24 hours to address early stage start-up support.
+        </p>
         </div>
 
         <div className="stage-cube-cont">
