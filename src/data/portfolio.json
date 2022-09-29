@@ -4,31 +4,37 @@
           "cover": "/portfolio/one.jpeg",
           "title": "Code For Good 2022",
           "description": "Web Application built in 24 hours using MERN Stack",
-          "url": "http://google.com"
+          "url": ""
       },
+    {
+        "cover": "/portfolio/seven.jpeg",
+        "title": "Hack 4 Good 2022",
+        "description": "Mobile-Based solution for Health/Safety issues in transportation",
+        "url": "https://github.com/pramitbhatia25/Hack-4-Good/blob/main/Transportation%20Renovation.pdf"
+    },
       {
         "cover": "/portfolio/two.jpeg",
-        "title": "GGWP",
-        "description": "Mobile Application built using Flutter",
-        "url": "http://google.com"
+        "title": "DJS Racing",
+        "description": "Mobile Application built using Flutter with a focus on UI/UX development.",
+        "url": "https://github.com/pramitbhatia25/DJSR-app"
     },
     {
       "cover": "/portfolio/three.jpeg",
       "title": "Efficiency Analysis",
       "description": "ML solution built using Python / Numpy / Pandas / Sklearn",
-      "url": "http://google.com"
+      "url": "https://github.com/pramitbhatia25/energyEfficiencyAnalysis/blob/main/60009200065_ML_LAB10.pdf"
   },
   {
     "cover": "/portfolio/four.jpeg",
     "title": "Muse-FT",
     "description": "Mobile Application built using Flutter",
-    "url": "http://google.com"
+    "url": "https://github.com/pramitbhatia25/Codeshastra_REVENGERS"
 },
 {
   "cover": "/portfolio/five.jpeg",
   "title": "shop-App",
   "description": "Mobile Application built using Flutter",
-  "url": "http://google.com"
+  "url": "https://github.com/pramitbhatia25/shop_app"
 }
 ]
 }
