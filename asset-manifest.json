@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.014d29b4.css",
-    "main.js": "/Portfolio/static/js/main.8559fa99.js",
+    "main.js": "/Portfolio/static/js/main.d3df4aa8.js",
     "static/js/787.a2cb61a6.chunk.js": "/Portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/Resume.pdf": "/Portfolio/static/media/Resume.74ef3562ccd311bf3813.pdf",
     "static/media/bungee-shade-all-400-normal.woff": "/Portfolio/static/media/bungee-shade-all-400-normal.c8cb6d51b0af060ee117.woff",
@@ -20,11 +20,11 @@
     "static/media/CoolveticaRg-Regular.woff2": "/Portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/Portfolio/index.html",
     "main.014d29b4.css.map": "/Portfolio/static/css/main.014d29b4.css.map",
-    "main.8559fa99.js.map": "/Portfolio/static/js/main.8559fa99.js.map",
+    "main.d3df4aa8.js.map": "/Portfolio/static/js/main.d3df4aa8.js.map",
     "787.a2cb61a6.chunk.js.map": "/Portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.014d29b4.css",
-    "static/js/main.8559fa99.js"
+    "static/js/main.d3df4aa8.js"
   ]
 }
