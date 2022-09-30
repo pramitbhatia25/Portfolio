@@ -5,17 +5,19 @@ import { Loader } from "react-loaders";
 import { NavLink } from "react-router-dom";
 import file from "../../assets/files/Resume.pdf"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHome, faFile, faUser, faEnvelope, faSuitcase, faBars, faContactCard } from "@fortawesome/free-solid-svg-icons";
+import { faHome, faFile, faUser, faEnvelope, faSuitcase, faBars, faContactCard, faPlay, faPause } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin, faGithub, faInstagram } from "@fortawesome/free-brands-svg-icons";
-
 import "./index.scss";
 import AnimatedLetters from "../AnimatedLetters";
+import useSound from "use-sound";
+import sound from "./sound.mp3";
 
 function Home() {
 
     const [letterClass, setLetterClass] = useState('text-animate');
     const nameArray = ['r', 'a', 'm', 'i', 't'];
     const [a, setA] = useState("Loading!");
+    const [play, { stop, isPlaying }] = useSound(sound);
 
     async function apiTest(){
         await fetch("http://127.0.0.1:5000", { method: "GET" }).then((response) => response.json()).then((data) => {setA(data.u)});
@@ -51,6 +53,9 @@ function Home() {
             <div className="typing"><ReactTypingEffect typingDelay="1000" eraseDelay="1000" eraseSpeed="10" speed="50"
                 text={["Software Developer.", "Undergrad @ Georgia State University", "Huge Marvel Fan!", "Aspring Software Engineer :)"]}
             /></div>
+            <div className="music-q">How 'bout some music?</div>
+            <Link to="#" className="flat-button" onClick={play}>Play <FontAwesomeIcon className="ic" icon={faPlay} color="white" fontSize={"20px"}/></Link>
+            <Link to="https://pramitbhatia25.github.io/Portfolio/" className="flat-button" >No <FontAwesomeIcon className="ic" icon={faPause} color="white" fontSize={"20px"}/></Link>
             <Link to="//linkedin.com/in/pramit-bhatia-220680b2/" target="_blank" className="flat-button">Linkedin <FontAwesomeIcon className="ic" icon={faLinkedin} color="white" fontSize={"20px"}/></Link>
             <Link to="//github.com/pramitbhatia25" target="_blank" className="flat-button">Github <FontAwesomeIcon className="ic" icon={faGithub} color="white" fontSize={"20px"}/></Link>
             <Link to={file} download target="_blank" className="flat-button">Resume <FontAwesomeIcon className="ic" icon={faFile} color="white" fontSize={"20px"}/></Link>

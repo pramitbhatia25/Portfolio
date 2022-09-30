@@ -65,6 +65,50 @@
     animation: fadeIn 1s 1s backwards;
   }
 
+  .music-b {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    text-align: center;
+    min-width: 180px;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    text-decoration: none;
+    padding: 10px 18px;
+    margin-top: 25px;
+    margin-right: 20px;
+    border: 1px solid #ffd700;
+    border-radius: 20%;
+    float: left;
+    animation: fadeIn 1s 1.8s backwards;
+    white-space: nowrap;
+
+    &:hover {
+      transition: transform 0.3s, opacity 0.3s, background-color 0.3s;
+      background: white;
+      color: #333;
+      font-weight: 600;
+      transform: translateY(3px);
+      .ic {
+        color: black;
+      }
+    }
+    &:link {
+      transition: transform 0.3s, opacity 0.3s, background-color 0.3s;
+    }
+  }
+
+  .music-q {
+    color: white;
+    margin-top: 40px;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    animation: fadeIn 1s 1s backwards;
+  }
+
   .flat-button {
     background-color: rgba(0, 0, 0, 0.4);
     color: white;
@@ -240,7 +284,7 @@
     box-sizing: border-box;
   }
 
-  .home-page .flat-button {
+  .home-page .flat-button, .music-b {
     float: none;
     display: block;
     margin: 20px auto 0 auto;
