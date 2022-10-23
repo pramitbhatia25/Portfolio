@@ -1,6 +1,18 @@
 @import '@fontsource/bungee-shade';
 
 .home-page {
+
+  .me {
+    position: absolute;
+    right: 0%;
+    bottom: -10%;
+    height: 1000px;
+    width: auto;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    border: black 1px solid;
+  }
+
   .text-zone {
     position: absolute;
     left: 10%;

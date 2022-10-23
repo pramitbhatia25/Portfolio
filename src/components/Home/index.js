@@ -25,6 +25,7 @@ function Home() {
     }
     
     useEffect(() => {
+        // apiTest();
         document.body.style.zoom = "80%";
         let timeoutId = setTimeout(() => {
             setLetterClass('text-animate-hover')
@@ -32,7 +33,7 @@ function Home() {
 
         return () => {
             clearTimeout(timeoutId)
-        }
+        }        
     }, [])
 
     function stopMusic() {
@@ -64,7 +65,7 @@ function Home() {
             <div className="typing"><ReactTypingEffect typingDelay="1000" eraseDelay="1000" eraseSpeed="10" speed="50"
                 text={["Software Developer.", "Undergrad @ Georgia State University", "Huge Marvel Fan!", "Aspring Software Engineer :)"]}
             /></div>
-            <div className="music-q">How 'bout some music? 🎺 </div>
+            <div className="music-q">How 'bout some music? 🎺</div>
             <Link to="#" className="flat-button" onClick={startMusic}>Play <FontAwesomeIcon className="ic" icon={faPlay} color="white" fontSize={"20px"}/></Link>
             <Link to="#" onClick={stopMusic} className="flat-button" >No <FontAwesomeIcon className="ic" icon={faPause} color="white" fontSize={"20px"}/></Link>
             <Link to="//linkedin.com/in/pramit-bhatia-220680b2/" target="_blank" className="flat-button">Linkedin <FontAwesomeIcon className="ic" icon={faLinkedin} color="white" fontSize={"20px"}/></Link>
