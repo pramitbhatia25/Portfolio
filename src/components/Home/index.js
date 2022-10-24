@@ -11,9 +11,7 @@ import "./index.scss";
 import AnimatedLetters from "../AnimatedLetters";
 import useSound from "use-sound";
 import sound from "./sound.mp3";
-
 function Home() {
-
     const [letterClass, setLetterClass] = useState('text-animate');
     const nameArray = ['r', 'a', 'm', 'i', 't'];
     const [a, setA] = useState("Loading!");

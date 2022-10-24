@@ -5,13 +5,10 @@ import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
-
-
 function App() {
-  
-
   return (
   <div>
+
     <Routes>
       <Route path="/Portfolio" element={<Layout />}>
         <Route path="" element= {<Home/>} />
