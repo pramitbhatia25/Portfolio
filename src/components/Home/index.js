@@ -65,7 +65,7 @@ function Home() {
             /></div>
             <div className="music-q">How 'bout some music? 🎺</div>
             <Link to="#" className="flat-button" onClick={startMusic}>Play <FontAwesomeIcon className="ic" icon={faPlay} color="white" fontSize={"20px"}/></Link>
-            <Link to="#" onClick={stopMusic} className="flat-button" >No <FontAwesomeIcon className="ic" icon={faPause} color="white" fontSize={"20px"}/></Link>
+            <Link to="#" onClick={stopMusic} className="flat-button" >Stop <FontAwesomeIcon className="ic" icon={faPause} color="white" fontSize={"20px"}/></Link>
             <Link to="//linkedin.com/in/pramit-bhatia-220680b2/" target="_blank" className="flat-button">Linkedin <FontAwesomeIcon className="ic" icon={faLinkedin} color="white" fontSize={"20px"}/></Link>
             <Link to="//github.com/pramitbhatia25" target="_blank" className="flat-button">Github <FontAwesomeIcon className="ic" icon={faGithub} color="white" fontSize={"20px"}/></Link>
             <Link to={file} download target="_blank" className="flat-button">Resume <FontAwesomeIcon className="ic" icon={faFile} color="white" fontSize={"20px"}/></Link>

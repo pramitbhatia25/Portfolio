@@ -14,23 +14,23 @@ export default function Particle() {
       options={{
         "particles": {
           "number": {
-            "value": 111,
+            "value": 80,
             "density": {
-              "enable": false,
-              "value_area": 2562.7677892123493
+              "enable": true,
+              "value_area": 800
             }
           },
           "color": {
-            "value": "#59ff00"
+            "value": "#ffffff"
           },
           "shape": {
             "type": "circle",
             "stroke": {
-              "width": 0,
+              "width": 3,
               "color": "#000000"
             },
             "polygon": {
-              "nb_sides": 3
+              "nb_sides": 5
             },
             "image": {
               "src": "img/github.svg",
@@ -39,8 +39,8 @@ export default function Particle() {
             }
           },
           "opacity": {
-            "value": 0.8649341288591679,
-            "random": true,
+            "value": 1,
+            "random": false,
             "anim": {
               "enable": false,
               "speed": 1,
@@ -49,8 +49,8 @@ export default function Particle() {
             }
           },
           "size": {
-            "value": 4.004324670644295,
-            "random": true,
+            "value": 3,
+            "random": false,
             "anim": {
               "enable": false,
               "speed": 40,
@@ -62,16 +62,16 @@ export default function Particle() {
             "enable": false,
             "distance": 150,
             "color": "#ffffff",
-            "opacity": 0.05606054538902014,
-            "width": 0.1601729868257718
+            "opacity": 0.4,
+            "width": 1
           },
           "move": {
             "enable": true,
-            "speed": 1.6017298682577181,
-            "direction": "none",
-            "random": true,
+            "speed": 2,
+            "direction": "top",
+            "random": false,
             "straight": false,
-            "out_mode": "bounce",
+            "out_mode": "out",
             "bounce": false,
             "attract": {
               "enable": false,
@@ -84,8 +84,8 @@ export default function Particle() {
           "detect_on": "canvas",
           "events": {
             "onhover": {
-              "enable": true,
-              "mode": "grab"
+              "enable": false,
+              "mode": "repulse"
             },
             "onclick": {
               "enable": true,
