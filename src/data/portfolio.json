@@ -10,7 +10,7 @@
         "cover": "/portfolio/nine.jpeg",
         "title": "Portfolio",
         "description": "Web Application built using React.",
-        "url": "https://github.com/cfgmum22/team-53"
+        "url": "https://github.com/pramitbhatia25/Portfolio"
     },
   {
         "cover": "/portfolio/seven.jpeg",
@@ -41,6 +41,12 @@
   "title": "shop-App",
   "description": "Mobile Application built using Flutter",
   "url": "https://github.com/pramitbhatia25/shop_app"
+},
+{
+  "cover": "/portfolio/six.jpeg",
+  "title": "tindog",
+  "description": "Static Web App built as part of a course",
+  "url": "https://github.com/pramitbhatia25/TinDog"
 }
 ]
 }

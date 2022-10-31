@@ -64,6 +64,14 @@ function Home() {
                 text={["Software Developer.", "Undergrad @ Georgia State University", "Huge Marvel Fan!", "Aspring Software Engineer :)"]}
             /></div>
             <div className="music-q">How 'bout some music? 🎺</div>
+            
+            {
+            //<audio controls id="beep" >
+            //<source src="./mysound.mp3" type="audio/mp3" />
+            //    Your browser does not support the audio tag.
+            //</audio>
+            }
+            
             <Link to="#" className="flat-button" onClick={startMusic}>Play <FontAwesomeIcon className="ic" icon={faPlay} color="white" fontSize={"20px"}/></Link>
             <Link to="#" onClick={stopMusic} className="flat-button" >Stop <FontAwesomeIcon className="ic" icon={faPause} color="white" fontSize={"20px"}/></Link>
             <Link to="//linkedin.com/in/pramit-bhatia-220680b2/" target="_blank" className="flat-button">Linkedin <FontAwesomeIcon className="ic" icon={faLinkedin} color="white" fontSize={"20px"}/></Link>
