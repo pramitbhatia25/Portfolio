@@ -3,7 +3,7 @@ import { Loader } from "react-loaders";
 import AnimatedLetters from "../AnimatedLetters";
 import "./index.scss";
 import { useState, useEffect } from "react";
-import portfolioData from "../../../src/data/portfolio.json";
+import portfolioData from "../../data/portfolio.json";
 
 const Portfolio = () => {
     const [letterClass, setLetterClass] = useState('text-animate')

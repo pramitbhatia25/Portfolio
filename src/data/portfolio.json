@@ -47,6 +47,12 @@
   "title": "tindog",
   "description": "Static Web App built as part of a course",
   "url": "https://github.com/pramitbhatia25/TinDog"
+},
+{
+  "cover": "/portfolio/eight.jpeg",
+  "title": "Drowsiness Detection",
+  "description": "Python App for Driver Drowsiness Detection",
+  "url": "https://github.com/pramitbhatia25/Yawn-Detection"
 }
 ]
 }
