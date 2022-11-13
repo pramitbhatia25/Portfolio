@@ -1,58 +1,64 @@
 {
   "portfolio": [
       {
-          "cover": "/portfolio/one.jpeg",
+          "cover": "/portfolio/1.jpeg",
           "title": "Code For Good 2022",
-          "description": "Web Application built in 24 hours using MERN Stack",
+          "description": "Web Application built in 24 hours using MERN Stack.",
           "url": "https://github.com/pramitbhatia25/Code-For-Good-2022"
       },
-      {
-        "cover": "/portfolio/nine.jpeg",
-        "title": "Portfolio",
-        "description": "Web Application built using React.",
-        "url": "https://github.com/pramitbhatia25/Portfolio"
-    },
   {
-        "cover": "/portfolio/seven.jpeg",
+        "cover": "/portfolio/7.jpeg",
         "title": "Hack 4 Good 2022",
-        "description": "Mobile-Based solution for Health/Safety issues in transportation",
+        "description": "Mobile-Based solution for Health/Safety issues in transportation.",
         "url": "https://github.com/pramitbhatia25/Hack-4-Good/blob/main/Transportation%20Renovation.pdf"
     },
-      {
-        "cover": "/portfolio/two.jpeg",
-        "title": "DJS Racing",
-        "description": "Mobile Application built using Flutter with a focus on UI/UX development.",
-        "url": "https://github.com/pramitbhatia25/DJSR-app"
+    {
+      "cover": "/portfolio/8.jpeg",
+      "title": "Drowsiness Detection",
+      "description": "Python App for Driver Drowsiness Detection.",
+      "url": "https://github.com/pramitbhatia25/Yawn-Detection"
     },
     {
-      "cover": "/portfolio/three.jpeg",
+      "cover": "/portfolio/10.jpeg",
+      "title": "SpookyBird",
+      "description": "Web Game developed using Flask / MongoDB",
+      "url": "https://github.com/pramitbhatia25/Yawn-Detection"
+    },
+    {
+      "cover": "/portfolio/3.jpeg",
       "title": "Efficiency Analysis",
       "description": "ML solution built using Python / Numpy / Pandas / Sklearn",
       "url": "https://github.com/pramitbhatia25/energyEfficiencyAnalysis/blob/main/60009200065_ML_LAB10.pdf"
   },
   {
-    "cover": "/portfolio/four.jpeg",
+    "cover": "/portfolio/4.jpeg",
     "title": "Muse-FT",
-    "description": "Mobile Application built using Flutter",
+    "description": "Mobile Music Player built using Flutter",
     "url": "https://github.com/pramitbhatia25/Codeshastra_REVENGERS"
 },
 {
-  "cover": "/portfolio/five.jpeg",
+  "cover": "/portfolio/5.jpeg",
   "title": "shop-App",
   "description": "Mobile Application built using Flutter",
   "url": "https://github.com/pramitbhatia25/shop_app"
 },
+        
+      {
+        "cover": "/portfolio/2.jpeg",
+        "title": "DJS Racing",
+        "description": "Mobile Application built using Flutter with a focus on UI/UX development.",
+        "url": "https://github.com/pramitbhatia25/DJSR-app"
+    },
+    {
+      "cover": "/portfolio/9.jpeg",
+      "title": "Portfolio",
+      "description": "Web Application built using React.",
+      "url": "https://github.com/pramitbhatia25/Portfolio"
+  },
 {
-  "cover": "/portfolio/six.jpeg",
+  "cover": "/portfolio/6.jpeg",
   "title": "tindog",
   "description": "Static Web App built as part of a course",
   "url": "https://github.com/pramitbhatia25/TinDog"
-},
-{
-  "cover": "/portfolio/eight.jpeg",
-  "title": "Drowsiness Detection",
-  "description": "Python App for Driver Drowsiness Detection",
-  "url": "https://github.com/pramitbhatia25/Yawn-Detection"
-}
-]
+}]
 }

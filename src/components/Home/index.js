@@ -11,6 +11,8 @@ import "./index.scss";
 import AnimatedLetters from "../AnimatedLetters";
 import useSound from "use-sound";
 import sound from "./sound.mp3";
+import ReactAudioPlayer from 'react-audio-player';
+
 function Home() {
     const [letterClass, setLetterClass] = useState('text-animate');
     const nameArray = ['r', 'a', 'm', 'i', 't'];
@@ -18,10 +20,10 @@ function Home() {
     const [play, { stop }] = useSound(sound);
 
 
-    async function apiTest(){
-        await fetch("http://127.0.0.1:5000", { method: "GET" }).then((response) => response.json()).then((data) => {setA(data.u)});
+    async function apiTest() {
+        await fetch("http://127.0.0.1:5000", { method: "GET" }).then((response) => response.json()).then((data) => { setA(data.u) });
     }
-    
+
     useEffect(() => {
         // apiTest();
         document.body.style.zoom = "80%";
@@ -31,7 +33,7 @@ function Home() {
 
         return () => {
             clearTimeout(timeoutId)
-        }        
+        }
     }, [])
 
     function stopMusic() {
@@ -43,7 +45,7 @@ function Home() {
         play();
         console.log("Started!")
     }
-    
+
     return <><div className="container home-page">
         <div className="text-zone">
             <h1>
@@ -64,24 +66,19 @@ function Home() {
                 text={["Software Developer.", "Undergrad @ Georgia State University", "Huge Marvel Fan!", "Aspring Software Engineer :)"]}
             /></div>
             <div className="music-q">How 'bout some music? 🎺</div>
-            
-            {
-            //<audio controls id="beep" >
-            //<source src="./mysound.mp3" type="audio/mp3" />
-            //    Your browser does not support the audio tag.
-            //</audio>
-            }
-            
-            <Link to="#" className="flat-button" onClick={startMusic}>Play <FontAwesomeIcon className="ic" icon={faPlay} color="white" fontSize={"20px"}/></Link>
-            <Link to="#" onClick={stopMusic} className="flat-button" >Stop <FontAwesomeIcon className="ic" icon={faPause} color="white" fontSize={"20px"}/></Link>
-            <Link to="//linkedin.com/in/pramit-bhatia-220680b2/" target="_blank" className="flat-button">Linkedin <FontAwesomeIcon className="ic" icon={faLinkedin} color="white" fontSize={"20px"}/></Link>
-            <Link to="//github.com/pramitbhatia25" target="_blank" className="flat-button">Github <FontAwesomeIcon className="ic" icon={faGithub} color="white" fontSize={"20px"}/></Link>
-            <Link to={file} download target="_blank" className="flat-button">Resume <FontAwesomeIcon className="ic" icon={faFile} color="white" fontSize={"20px"}/></Link>
-            <Link to="/Portfolio/contact" className="flat-button">Contact Me! <FontAwesomeIcon className="ic" icon={faContactCard} color="white" fontSize={"20px"}/></Link>
+
+
+            <Link to="#" className="flat-button" onClick={startMusic}>Play <FontAwesomeIcon className="ic" icon={faPlay} color="white" fontSize={"20px"} /></Link>
+            <Link to="#" onClick={stopMusic} className="flat-button" >Stop <FontAwesomeIcon className="ic" icon={faPause} color="white" fontSize={"20px"} /></Link>
+            <Link to="//linkedin.com/in/pramit-bhatia-220680b2/" target="_blank" className="flat-button">Linkedin <FontAwesomeIcon className="ic" icon={faLinkedin} color="white" fontSize={"20px"} /></Link>
+            <Link to="//github.com/pramitbhatia25" target="_blank" className="flat-button">Github <FontAwesomeIcon className="ic" icon={faGithub} color="white" fontSize={"20px"} /></Link>
+            <Link to={file} download target="_blank" className="flat-button">Resume <FontAwesomeIcon className="ic" icon={faFile} color="white" fontSize={"20px"} /></Link>
+            <Link to="/Portfolio/contact" className="flat-button cont">Contact Me! <FontAwesomeIcon className="ic" icon={faContactCard} color="white" fontSize={"20px"} /></Link>
         </div>
         <div className="iron-man">
             <div className="reactor-container">
-                <div className="reactor-container-inner circle abs-center"></div>
+                <div className="reactor-container-inner circle abs-center">
+                </div>
                 <div className="tunnel circle abs-center"></div>
                 <div className="core-wrapper circle abs-center"></div>
                 <div className="core-outer circle abs-center"></div>
@@ -98,6 +95,7 @@ function Home() {
                 </div>
             </div>
         </div>
+        
     </div>
         <Loader type="pacman" />
     </>
