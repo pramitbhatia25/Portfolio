@@ -1,33 +1,34 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.5294af13.css",
-    "main.js": "/Portfolio/static/js/main.7c41c2d0.js",
+    "main.css": "/Portfolio/static/css/main.98a6ff8a.css",
+    "main.js": "/Portfolio/static/js/main.1da82f0a.js",
     "static/js/845.c7e3dbac.chunk.js": "/Portfolio/static/js/845.c7e3dbac.chunk.js",
     "static/js/787.a2cb61a6.chunk.js": "/Portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/sound.mp3": "/Portfolio/static/media/sound.23dd971df822fc8d566f.mp3",
     "static/media/bungee-shade-all-400-normal.woff": "/Portfolio/static/media/bungee-shade-all-400-normal.c8cb6d51b0af060ee117.woff",
     "static/media/Resume.pdf": "/Portfolio/static/media/Resume.397bf85dc2e5255acf22.pdf",
-    "static/media/two.jpeg": "/Portfolio/static/media/two.445163abe6d8cbb11537.jpeg",
-    "static/media/five.jpeg": "/Portfolio/static/media/five.898ed3c92d8c1013bf18.jpeg",
-    "static/media/three.jpeg": "/Portfolio/static/media/three.6bde72664442d076b2ba.jpeg",
+    "static/media/2.jpeg": "/Portfolio/static/media/2.445163abe6d8cbb11537.jpeg",
+    "static/media/5.jpeg": "/Portfolio/static/media/5.898ed3c92d8c1013bf18.jpeg",
+    "static/media/3.jpeg": "/Portfolio/static/media/3.6bde72664442d076b2ba.jpeg",
     "static/media/bungee-shade-latin-400-normal.woff2": "/Portfolio/static/media/bungee-shade-latin-400-normal.1090ee90e74fd8cc979d.woff2",
     "static/media/bungee-shade-latin-ext-400-normal.woff2": "/Portfolio/static/media/bungee-shade-latin-ext-400-normal.c28ededf15802d3feecf.woff2",
-    "static/media/four.jpeg": "/Portfolio/static/media/four.6d0a133c8e9fda5d251e.jpeg",
-    "static/media/one.jpeg": "/Portfolio/static/media/one.4ee4f57d959658defbaf.jpeg",
-    "static/media/seven.jpeg": "/Portfolio/static/media/seven.a51c19c7bd028a94f3f9.jpeg",
+    "static/media/4.jpeg": "/Portfolio/static/media/4.6d0a133c8e9fda5d251e.jpeg",
+    "static/media/1.jpeg": "/Portfolio/static/media/1.4ee4f57d959658defbaf.jpeg",
+    "static/media/7.jpeg": "/Portfolio/static/media/7.a51c19c7bd028a94f3f9.jpeg",
     "static/media/helvetica-neu.ttf": "/Portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/10.jpeg": "/Portfolio/static/media/10.0d013376604fcb12036c.jpeg",
     "static/media/LaBelleAurore.woff2": "/Portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/bungee-shade-vietnamese-400-normal.woff2": "/Portfolio/static/media/bungee-shade-vietnamese-400-normal.2cf400c338a0b80e7ad3.woff2",
-    "static/media/eight.jpeg": "/Portfolio/static/media/eight.5fe18cafdfed7f066aee.jpeg",
+    "static/media/8.jpeg": "/Portfolio/static/media/8.5fe18cafdfed7f066aee.jpeg",
     "static/media/CoolveticaRg-Regular.woff2": "/Portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/Portfolio/index.html",
-    "main.5294af13.css.map": "/Portfolio/static/css/main.5294af13.css.map",
-    "main.7c41c2d0.js.map": "/Portfolio/static/js/main.7c41c2d0.js.map",
+    "main.98a6ff8a.css.map": "/Portfolio/static/css/main.98a6ff8a.css.map",
+    "main.1da82f0a.js.map": "/Portfolio/static/js/main.1da82f0a.js.map",
     "845.c7e3dbac.chunk.js.map": "/Portfolio/static/js/845.c7e3dbac.chunk.js.map",
     "787.a2cb61a6.chunk.js.map": "/Portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5294af13.css",
-    "static/js/main.7c41c2d0.js"
+    "static/css/main.98a6ff8a.css",
+    "static/js/main.1da82f0a.js"
   ]
 }
