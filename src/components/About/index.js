@@ -10,7 +10,7 @@ function About() {
     const [letterClass, setLetterClass] = useState('text-animate')
 
     useEffect(() => {
-
+        document.body.style.zoom = "80%";
         let timeoutId = setTimeout(() => {
             setLetterClass('text-animate-hover')
         }, 4000)
@@ -38,6 +38,10 @@ function About() {
                 <p>
                     I love taking part in competitions and hackathons of all kinds, and am naturally
                     competitive. Some of my recent outgoings are:
+                    <br />
+                    <br />
+                    GameJam - A Gaming Hakcathon where I wrote and deployed a web game called SpookyBird. Check it out:
+                    | <a className="hack" href="http://gamejam-gsu.herokuapp.com/">Play Game</a>
                     <br />
                     <br />
                     Hack 4 Good - A Multidisclipinary Hakcathon my wonderful team and I addressed under-reporting of health and safety incidents on the MARTA transport system.
