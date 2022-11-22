@@ -13,6 +13,12 @@
         "url": "https://github.com/pramitbhatia25/Hack-4-Good/blob/main/Transportation%20Renovation.pdf"
     },
     {
+      "cover": "/portfolio/11.jpeg",
+      "title": "Sorting Algorithm Visualizer",
+      "description": "Flask App to visualize working of sorting algorithms.",
+      "url": "https://sorting-algo-viz.herokuapp.com/"
+    },
+    {
       "cover": "/portfolio/8.jpeg",
       "title": "Drowsiness Detection",
       "description": "Python App for Driver Drowsiness Detection.",
@@ -22,7 +28,7 @@
       "cover": "/portfolio/10.jpeg",
       "title": "SpookyBird",
       "description": "Web Game developed using Flask / MongoDB",
-      "url": "https://github.com/pramitbhatia25/Yawn-Detection"
+      "url": "http://gamejam-gsu.herokuapp.com/"
     },
     {
       "cover": "/portfolio/3.jpeg",
