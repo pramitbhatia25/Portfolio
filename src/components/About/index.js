@@ -40,8 +40,8 @@ function About() {
                     competitive. Some of my recent outgoings are:
                     <br />
                     <br />
-                    GameJam - A Gaming Hakcathon where I wrote and deployed a web game called SpookyBird. Check it out:
-                    | <a className="hack" href="http://gamejam-gsu.herokuapp.com/">Play Game</a>
+                    GameJam - A Gaming Hackathon where I wrote and deployed a web game called SpookyBird. Check it out:
+                    | <a className="hack" href="https://github.com/pramitbhatia25/GameJam">Project Link</a>
                     <br />
                     <br />
                     Hack 4 Good - A Multidisclipinary Hakcathon my wonderful team and I addressed under-reporting of health and safety incidents on the MARTA transport system.

@@ -13,10 +13,16 @@
         "url": "https://github.com/pramitbhatia25/Hack-4-Good/blob/main/Transportation%20Renovation.pdf"
     },
     {
+      "cover": "/portfolio/12.jpeg",
+      "title": "Fitbit Activity Tracker",
+      "description": "Full Stack MERN App to track and sync Fitbit activity.",
+      "url": "https://devpost.com/software/gamerh?ref_content=my-projects-tab&ref_feature=my_projects"
+    },
+    {
       "cover": "/portfolio/11.jpeg",
       "title": "Sorting Algorithm Visualizer",
       "description": "Flask App to visualize working of sorting algorithms.",
-      "url": "https://sorting-algo-viz.herokuapp.com/"
+      "url": "https://github.com/pramitbhatia25/Sorting-Algorithm-Visualizer"
     },
     {
       "cover": "/portfolio/8.jpeg",
