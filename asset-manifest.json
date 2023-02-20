@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.9dde1b6e.css",
-    "main.js": "/Portfolio/static/js/main.f2d705c0.js",
+    "main.js": "/Portfolio/static/js/main.491ac0d6.js",
     "static/js/845.c7e3dbac.chunk.js": "/Portfolio/static/js/845.c7e3dbac.chunk.js",
     "static/js/787.a2cb61a6.chunk.js": "/Portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/sound.mp3": "/Portfolio/static/media/sound.23dd971df822fc8d566f.mp3",
@@ -9,8 +9,8 @@
     "static/media/2.jpeg": "/Portfolio/static/media/2.445163abe6d8cbb11537.jpeg",
     "static/media/11.jpeg": "/Portfolio/static/media/11.86461c8d96ebe41060bd.jpeg",
     "static/media/12.jpeg": "/Portfolio/static/media/12.b8e31e584ed8beb9488e.jpeg",
-    "static/media/Resume.pdf": "/Portfolio/static/media/Resume.9cc16d87a0206a55ffa0.pdf",
     "static/media/5.jpeg": "/Portfolio/static/media/5.898ed3c92d8c1013bf18.jpeg",
+    "static/media/Resume.pdf": "/Portfolio/static/media/Resume.c0a898fc6e61ae33ea69.pdf",
     "static/media/3.jpeg": "/Portfolio/static/media/3.6bde72664442d076b2ba.jpeg",
     "static/media/bungee-shade-latin-400-normal.woff2": "/Portfolio/static/media/bungee-shade-latin-400-normal.1090ee90e74fd8cc979d.woff2",
     "static/media/bungee-shade-latin-ext-400-normal.woff2": "/Portfolio/static/media/bungee-shade-latin-ext-400-normal.c28ededf15802d3feecf.woff2",
@@ -21,16 +21,18 @@
     "static/media/10.jpeg": "/Portfolio/static/media/10.0d013376604fcb12036c.jpeg",
     "static/media/LaBelleAurore.woff2": "/Portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/bungee-shade-vietnamese-400-normal.woff2": "/Portfolio/static/media/bungee-shade-vietnamese-400-normal.2cf400c338a0b80e7ad3.woff2",
+    "static/media/15.jpeg": "/Portfolio/static/media/15.390be2ac3b6b23ebe467.jpeg",
     "static/media/8.jpeg": "/Portfolio/static/media/8.5fe18cafdfed7f066aee.jpeg",
+    "static/media/13.jpeg": "/Portfolio/static/media/13.ae33f2e7ebd40ee1fb3d.jpeg",
     "static/media/CoolveticaRg-Regular.woff2": "/Portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/Portfolio/index.html",
     "main.9dde1b6e.css.map": "/Portfolio/static/css/main.9dde1b6e.css.map",
-    "main.f2d705c0.js.map": "/Portfolio/static/js/main.f2d705c0.js.map",
+    "main.491ac0d6.js.map": "/Portfolio/static/js/main.491ac0d6.js.map",
     "845.c7e3dbac.chunk.js.map": "/Portfolio/static/js/845.c7e3dbac.chunk.js.map",
     "787.a2cb61a6.chunk.js.map": "/Portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9dde1b6e.css",
-    "static/js/main.f2d705c0.js"
+    "static/js/main.491ac0d6.js"
   ]
 }
