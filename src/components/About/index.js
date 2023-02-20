@@ -40,8 +40,8 @@ function About() {
                     competitive. Some of my recent outgoings are:
                     <br />
                     <br />
-                    GameJam - A Gaming Hackathon where I wrote and deployed a web game called SpookyBird. Check it out:
-                    | <a className="hack" href="https://github.com/pramitbhatia25/GameJam">Project Link</a>
+                    Hackalytics - A Data-Science Hackathon where my team and I created a eye-disease classification app. Check it out:
+                    | <a className="hack" href="https://devpost.com/software/yeuxview">Project Link</a>
                     <br />
                     <br />
                     Hack 4 Good - A Multidisclipinary Hakcathon my wonderful team and I addressed under-reporting of health and safety incidents on the MARTA transport system.

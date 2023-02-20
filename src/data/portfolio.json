@@ -13,6 +13,12 @@
         "url": "https://github.com/pramitbhatia25/Hack-4-Good/blob/main/Transportation%20Renovation.pdf"
     },
     {
+      "cover": "/portfolio/13.jpeg",
+      "title": "YeuxView",
+      "description": "Machine Learning Application to help classify eye-diseases.",
+      "url": "https://devpost.com/software/yeuxview"
+    },
+    {
       "cover": "/portfolio/12.jpeg",
       "title": "Fitbit Activity Tracker",
       "description": "Full Stack MERN App to track and sync Fitbit activity.",
@@ -25,10 +31,22 @@
       "url": "https://github.com/pramitbhatia25/Sorting-Algorithm-Visualizer"
     },
     {
+      "cover": "/portfolio/14.jpeg",
+      "title": "LifeNet Kiosk",
+      "description": "MERN App focused on helping the homeless.",
+      "url": "https://devpost.com/software/lifenet-kiosk"
+    },
+    {
       "cover": "/portfolio/8.jpeg",
       "title": "Drowsiness Detection",
       "description": "Python App for Driver Drowsiness Detection.",
       "url": "https://github.com/pramitbhatia25/Yawn-Detection"
+    },
+    {
+      "cover": "/portfolio/15.jpeg",
+      "title": "Site Script Studio",
+      "description": "Automated Portfolio Website Generator.",
+      "url": "https://devpost.com/software/sitescriptstudio"
     },
     {
       "cover": "/portfolio/10.jpeg",
