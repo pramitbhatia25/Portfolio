@@ -23,7 +23,7 @@ const Contact = () => {
         e.preventDefault();
 
         emailjs.sendForm(
-            'service_o1xbn8k',
+            'service_m2tov4f',
             'template_bvcoawo',
             refForm.current,
             'RVo9CxTqD3INEUHwE'
@@ -33,7 +33,7 @@ const Contact = () => {
                     alert("Message successfully sent!");
                     document.location.href = "https://pramitbhatia25.github.io/Portfolio/";
                 },
-                () => {
+                (error) => {
                     alert("Failed to send the message, try again.");
                 }
             )
