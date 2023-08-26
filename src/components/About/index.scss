@@ -88,7 +88,15 @@
     .stage-cube-cont {
       position: initial;
       width: 100%;
-      height: 0%;
+      height: 500px;
       overflow: visible;
+    }
+
+    .about-page {
+      .text-zone {
+        p {
+          text-align: center;
+        }
+      }
     }
   }

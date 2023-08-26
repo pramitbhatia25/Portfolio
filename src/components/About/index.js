@@ -31,26 +31,31 @@ function About() {
                     />
                 </h1>
                 <p>
-                    I'm currently studying Computer Science at Georgia State University.
-                    I have experience in Web and App development and would love to contribute
-                    or help out in projects, internships or any other opportunities!
+                Hey there! Thanks for stopping by!
+                I'm Pramit, a CS student at Georgia State University. 
+                I've around 2 years of project building experience with technologies 
+                like ReactJS, ExpressJS, NodeJS, Python, Flask, Docker and many more.
+                I am also Microsoft Certified and have passed the Azure Fundamentals - AZ-900
+                and Azure AI Fundamentals - AI-900 exams.
                 </p>
+
                 <p>
-                    I love taking part in competitions and hackathons of all kinds, and am naturally
-                    competitive. Some of my recent outgoings are:
-                    <br />
-                    <br />
-                    Hackalytics - A Data-Science Hackathon where my team and I created a eye-disease classification app. Check it out:
-                    | <a className="hack" href="https://devpost.com/software/yeuxview">Project Link</a>
-                    <br />
-                    <br />
-                    Hack 4 Good - A Multidisclipinary Hakcathon my wonderful team and I addressed under-reporting of health and safety incidents on the MARTA transport system.
-                    | <a className="hack" href="https://github.com/pramitbhatia25/Hack-4-Good/blob/main/Transportation%20Renovation.pdf">Project Link</a>
-                    <br />
-                    <br />
-                    Code For Good 2022 - A Technology hackathon where my team and I developed a web application
-                    under 24 hours to address early stage start-up support.
-                    | <a className="hack" href="https://github.com/pramitbhatia25/Code-For-Good-2022">Project Link</a>
+                I've been interning at Cybriant for the last couple of months
+                and have gained experience in setting up and working with DevOps
+                Automation Pipelines, using my Azure knowledge and programming 
+                background to create automation scripts and deploying them via Azure services.
+                </p>
+
+                <p>
+                I also have a Machine Learning and Data Science background, and
+                have been working as a Undergraduate Researcher at Georgia State University.
+                </p>
+                
+                <p>
+                I am keen on engaging in various projects throughout my engineering journey.
+                I am a quick learner and try my best to indulge in many different technologies 
+                to understand their applications in the industry. I would love to contribute 
+                to or help in projects, internships, or other opportunities!
                 </p>
             </div>
 
